@@ -4,14 +4,18 @@ import './App.css';
 import About from './pages/About';
 import WhoAmI from './pages/WhoAmI';
 import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import ContactUs from './pages/ContactUs';
 
 function App() {
   return (
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<About />} />
+      <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
         <Route path="/whoami" element={<WhoAmI />} />
+        <Route path="/contactus" element={<ContactUs />} />
       </Routes>
     </Router>
   );
