@@ -15,7 +15,7 @@ const Navbar = () => {
         Home
       </NavLink>
       <NavLink
-        to="/"
+        to="/about"
         className="text-black font-semibold no-underline hover:text-gray-600"
         activeClassName="text-blue-500"
       >
