@@ -6,6 +6,6 @@ function ContactUs() {
       Contact page
     </div>
   )
-}
+} 
 
 export default ContactUs
